@@ -6,6 +6,7 @@ public class Main {
         chooseOs();
         System.out.println(calculateDeliveryDays());
     }
+
     public static void checkLeapYear () {
         Scanner in = new Scanner(System.in);
         System.out.print("Введите год для определения его високосности: ");
